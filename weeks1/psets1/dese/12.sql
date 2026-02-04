@@ -1,4 +1,4 @@
--- CS50 SQL – Week 1
+-- CS50 SQL – Week 1 (Relating)
 -- Problem Set 2 – Final Question
 -- Database: dese.db
 -- Task:
