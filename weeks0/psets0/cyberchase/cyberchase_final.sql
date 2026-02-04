@@ -1,5 +1,5 @@
 -- CS50 SQL – Week 0 (Querying)
--- Problem Set 1 – Final Question
+-- Problem Set 1 – Cyberchase (Final Question) (https://cs50.harvard.edu/sql/psets/0/cyberchase/)
 -- Database: cyberchase.db
 -- Task:
 --   Identify episodes that aired during the U.S. holiday season (December).
