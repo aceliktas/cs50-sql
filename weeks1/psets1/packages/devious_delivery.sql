@@ -1,5 +1,5 @@
 -- CS50 SQL – Week 1 (Relating)
--- Problem Set 1: Devious Delivery
+-- Problem Set 1: Packages (Devious Delivery) (https://cs50.harvard.edu/sql/psets/1/packages/)
 -- Database: packages.db
 -- Task:
 --   Identify the destination address type and contents of the package that was delivered without a sender address.
