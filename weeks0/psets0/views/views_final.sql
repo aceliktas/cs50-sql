@@ -1,5 +1,5 @@
 -- CS50 SQL – Week0 (Querying)
--- Problem Set 2 – Final Question
+-- Problem Set 2 – 36 Views (Final Question) (https://cs50.harvard.edu/sql/psets/0/views/)
 -- Database: views.db
 -- Task:
 --   Identify all prints by Hiroshige that are highly visually complex.
