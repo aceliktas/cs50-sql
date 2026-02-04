@@ -1,5 +1,5 @@
 -- CS50 SQL – Week 0 (Querying)
--- Problem Set 3 – Final Question
+-- Problem Set 3 – Players (Final Question) (https://cs50.harvard.edu/sql/psets/0/players/)
 -- Database: players.db
 -- Task:
 --   List the first and last names of all players whose height is above average.
