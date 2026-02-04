@@ -1,5 +1,5 @@
 -- CS50 SQL – Week 1 (Relating)
--- Problem Set 2 – Final Question
+-- Problem Set 2 – Packages (Final Question) (https://cs50.harvard.edu/sql/psets/1/packages/)
 -- Database: dese.db
 -- Task:
 --   Identify public school districts in Massachusetts with:
