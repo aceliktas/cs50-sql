@@ -1,5 +1,5 @@
 -- CS50 SQL – Week 1 (Relating)
--- Problem Set 3 – Final Question
+-- Problem Set 3 – Moneyball (Final Question) (https://cs50.harvard.edu/sql/psets/1/moneyball/)
 -- Database: moneyball.db
 -- Task:
 --   Identify players who rank among:
