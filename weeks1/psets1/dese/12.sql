@@ -1,22 +1,27 @@
 -- CS50 SQL – Week 1 (Relating)
 -- Problem Set 2 – DESE (Final Question) (https://cs50.harvard.edu/sql/psets/1/dese/)
 -- Database: dese.db
+
 -- Task:
 --   Identify public school districts in Massachusetts with:
 --     - Above-average per-pupil expenditures
 --     - Above-average percentage of teachers rated "exemplary"
+
 -- Output:
 --   - district_name
 --   - per_pupil_expenditure
 --   - exemplary_teacher_percentage
+
 -- Sorting:
 --   - exemplary_teacher_percentage (DESC)
 --   - per_pupil_expenditure (DESC)
+
 -- Concepts used:
 --   - Multi-table JOINs
 --   - Subqueries with aggregate functions (AVG)
 --   - Filtering with WHERE
 --   - Multi-level ORDER BY
+
 SELECT "districts"."name", "expenditures"."per_pupil_expenditure", "staff_evaluations"."exemplary"
 FROM "districts"
 JOIN "expenditures"

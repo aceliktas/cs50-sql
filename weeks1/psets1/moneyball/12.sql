@@ -1,16 +1,20 @@
 -- CS50 SQL – Week 1 (Relating)
 -- Problem Set 3 – Moneyball (Final Question) (https://cs50.harvard.edu/sql/psets/1/moneyball/)
 -- Database: moneyball.db
+
 -- Task:
 --   Identify players who rank among:
 --     - The 10 least expensive players per hit, and
 --     - The 10 least expensive players per RBI
 --   during the 2001 season.
+
 -- Output:
 --   - first_name
 --   - last_name
+
 -- Assumptions:
 --   - Each player has exactly one salary and one performance record in 2001.
+
 -- Concepts used:
 --   - Subqueries with IN
 --   - JOINs across multiple tables

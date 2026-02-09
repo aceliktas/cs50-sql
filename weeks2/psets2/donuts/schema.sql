@@ -5,19 +5,23 @@
 -- CS50 SQL – Week 2 (Designing)
 -- Problem Set 3 – Union Square Donuts (https://cs50.harvard.edu/sql/psets/2/donuts/)
 -- Database: schema.db
+
 -- Task:
 --   Design a relational database for a donut shop to track ingredients, donuts, customers, and orders.
+
 -- Output / Representation:
 --   - ingredients (name, price per unit)
 --   - donuts (name, price, gluten-free status, ingredients)
 --   - customers (first and last name)
 --   - orders (which customer placed the order, which donuts and quantities)
+
 -- Concepts used:
 --   - Primary and foreign keys
 --   - Many-to-many relationships via join tables
 --   - CHECK constraints for data integrity (positive prices, quantities, boolean values)
 --   - Default values for columns (e.g., gluten-free, quantity, order date)
 --   - Normalization to reduce redundancy
+
 CREATE TABLE "ingredients" (
   "id" INTEGER PRIMARY KEY,
   "name" TEXT UNIQUE NOT NULL,

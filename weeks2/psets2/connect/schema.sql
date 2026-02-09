@@ -1,7 +1,9 @@
 -- CS50 SQL – Week 2 (Designing) (https://cs50.harvard.edu/sql/psets/2/connect/)
 -- Problem Set 2: LinkedIn Database
+
 -- Task:
 --   Design a relational database for LinkedIn to track users, schools, companies, and connections.
+
 -- Output:
 --   - users (first name, last name, username, password)
 --   - schools (name, type, location, year founded)
@@ -9,6 +11,7 @@
 --   - education (user-school affiliations, start/end dates, degrees)
 --   - employment (user-company affiliations, start/end dates, titles)
 --   - connections (mutual user-to-user connections)
+
 -- Concepts used:
 --   - Primary and foreign keys
 --   - Many-to-many relationships via join tables (users ↔ schools, users ↔ companies)
@@ -16,6 +19,7 @@
 --   - CHECK constraints for data integrity (start/end dates, valid years, no self-connections)
 --   - UNIQUE constraints for usernames and company names
 --   - Default and normalized structure to avoid redundancy
+
 CREATE TABLE users (
     "id" INTEGER,
     "first_name" TEXT NOT NULL,

@@ -1,7 +1,9 @@
 -- CS50 SQL – Week 2 (Designing)
 -- Problem Set 2: ATL Airport (https://cs50.harvard.edu/sql/psets/2/atl/)
+
 -- Task:
 --   Design a relational database for ATL airport to track passengers, airlines, concourses, flights, and check-ins.
+
 -- Output:
 --   - passengers (first name, last name, age)
 --   - airlines (name)
@@ -9,12 +11,14 @@
 --   - airline_concourses (linking airlines to concourses)
 --   - flights (flight number, airline, departure/arrival airports and times)
 --   - check_ins (passenger check-ins with datetime)
+
 -- Concepts used:
 --   - Primary and foreign keys
 --   - Many-to-many relationships via join tables (airlines ↔ concourses)
 --   - CHECK constraints for data integrity (age ≥ 0, concourse codes valid)
 --   - Default values for columns (CURRENT_TIMESTAMP for check-ins)
 --   - Normalization to reduce redundancy
+
 CREATE TABLE passengers (
     "id" INTEGER,
     "first_name" TEXT NOT NULL,
